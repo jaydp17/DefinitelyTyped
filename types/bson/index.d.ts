@@ -400,6 +400,11 @@ export class ObjectID {
      * @return {string} return the 24 byte hex string representation.
      */
     toHexString(): string;
+    /**
+     * Return the ObjectID id as a 24 byte hex string representation
+     * @return {string} return the 24 byte hex string representation.
+     */
+    toString(): string;
 }
 
 export { ObjectID as ObjectId };
